@@ -1,0 +1,121 @@
+.education__heading {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.02em;
+}
+
+.education__card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.education__school-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+
+.education__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.education__degree {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.education__school {
+  font-size: 0.9rem;
+}
+
+.education__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+
+.education__gpa {
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.education__grad {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.education__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: rgba(255,255,255,0.02);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.education__detail-block {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+  align-items: baseline;
+}
+
+.education__detail-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  min-width: 100px;
+  flex-shrink: 0;
+}
+
+.education__detail-block span:last-child {
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.education__highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.edu-tag {
+  font-size: 0.75rem;
+  font-family: var(--mono);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.25rem 0.65rem;
+  border-radius: 100px;
+}
+
+@media (max-width: 640px) {
+  .education__card {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .education__meta {
+    align-items: flex-start;
+  }
+}

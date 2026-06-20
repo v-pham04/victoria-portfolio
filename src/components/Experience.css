@@ -1,0 +1,131 @@
+.experience__heading {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.02em;
+}
+
+.experience__layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* Tabs */
+.experience__tabs {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid var(--border);
+}
+
+.exp-tab {
+  background: none;
+  border: none;
+  border-left: 2px solid transparent;
+  margin-left: -2px;
+  padding: 0.75rem 1.25rem;
+  text-align: left;
+  font-size: 0.85rem;
+  font-family: var(--mono);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--transition);
+  line-height: 1.4;
+}
+
+.exp-tab:hover {
+  color: var(--text-secondary);
+  background: var(--accent-glow);
+}
+
+.exp-tab--active {
+  border-left-color: var(--accent) !important;
+  color: var(--accent) !important;
+  background: var(--accent-glow);
+}
+
+/* Content */
+.experience__header {
+  margin-bottom: 1.5rem;
+}
+
+.experience__role {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.experience__company {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.experience__meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: var(--mono);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.experience__dot {
+  color: var(--border-light);
+}
+
+/* Bullets */
+.experience__bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience__bullets li {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.experience__arrow {
+  flex-shrink: 0;
+  margin-top: 0.05em;
+  font-size: 0.8rem;
+}
+
+.experience__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 700px) {
+  .experience__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .experience__tabs {
+    flex-direction: row;
+    border-left: none;
+    border-bottom: 2px solid var(--border);
+    overflow-x: auto;
+  }
+
+  .exp-tab {
+    border-left: none;
+    border-bottom: 2px solid transparent;
+    margin-left: 0;
+    margin-bottom: -2px;
+    white-space: nowrap;
+  }
+
+  .exp-tab--active {
+    border-bottom-color: var(--accent) !important;
+    border-left-color: transparent !important;
+  }
+}
