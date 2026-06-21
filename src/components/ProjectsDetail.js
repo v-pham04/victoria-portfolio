@@ -82,7 +82,7 @@ const projects = [
   {
     title: 'FOMO – Real-time Social Event Discovery App',
     role: 'Frontend Developer',
-    description: 'Capstone project built collaboratively with a team of 4. A React Native mobile app for discovering and sharing local events. I worked primarily on the frontend, building UI screens and components with TypeScript and Expo. Full-stack app with Node.js/Express backend, Prisma ORM, and MySQL database.',
+    description: 'Capstone project built collaboratively with a team of 7. A React Native mobile app for discovering and sharing local events. I worked primarily on the frontend, building UI screens and components with TypeScript and Expo. Full-stack app with Node.js/Express backend, Prisma ORM, and MySQL database.',
     tags: ['React Native', 'TypeScript', 'Expo', 'Node.js', 'Prisma', 'MySQL', 'REST API'],
     images: ['/projects-demo/fomo/img1.png', '/projects-demo/fomo/img2.png'],
     github: 'https://github.com/v-pham04',
