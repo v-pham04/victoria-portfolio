@@ -5,7 +5,7 @@ const jobs = [
   {
     company: 'Intrastack Solutions',
     role: 'System Engineer (Internship)',
-    period: 'Jan 2026 – Present',
+    period: 'June 2025 – Present',
     location: 'Remote · Orlando, FL',
     bullets: [
       'Architected AWS infrastructure across 3 isolated environments (Dev/Test/Prod) using Terraform IaC — VPCs, subnets, EC2, EKS — cutting provisioning time ~60% and eliminating configuration drift.',
