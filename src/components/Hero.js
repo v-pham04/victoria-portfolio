@@ -60,9 +60,10 @@ export default function Hero() {
         </h2>
 
         <p className="hero__desc">
-          Junior SRE & Cloud Infrastructure Engineer with production experience
-          building AWS multi-environment VPCs, hardening Linux servers, and deploying
-          Terraform IaC. Based in Wisconsin — open to roles nationwide.
+          Infrastructure & Systems Engineer with hands-on production experience across cloud architecture, Linux administration, monitoring, and automation. 
+          Designed and deployed AWS multi-environment infrastructure using Terraform IaC, hardened production Linux servers to zero security incidents, and built observability stacks with automated alerting and health-check pipelines. 
+          Experienced with Docker, Kubernetes, and CI/CD workflows. Actively expanding skills in GCP and Azure. Comfortable working across the full infrastructure lifecycle — from provisioning and hardening to incident response and reliability engineering. 
+          Based in Wisconsin — open to roles nationwide.
         </p>
 
         <div className="hero__badges">
