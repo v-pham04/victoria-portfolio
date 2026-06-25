@@ -4,7 +4,7 @@ import './Experience.css';
 const jobs = [
   {
     company: 'Intrastack Solutions',
-    role: 'System Engineer (Internship)',
+    role: 'System & Cloud Engineer',
     period: 'June 2025 – Present',
     location: 'Remote · Orlando, FL',
     bullets: [
